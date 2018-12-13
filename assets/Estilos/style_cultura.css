@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb {border-radius: 10px; background: #6c07a8;}
 	background-color: #6c07a8;
 }
 
-.intro .texto{padding-top: 2rem;}
+.intro .texto{padding-top: 4rem;}
 
 /* INTRO MIT - CELULAR */
 @media only screen and (max-width: 576px) 
