@@ -15,59 +15,9 @@
         })
     })
             
-  
-    
-    /*==================================================================
-    [ Validate ]*/
-    var name = $('.validate-input input[name="nome"]');
-    var email = $('.validate-input input[name="email"]');
-    var message = $('.validate-input textarea[name="mensagem"]');
-
-
-    $('.validate-form').on('submit',function(){
-        var check = true;
-
-        if($(name).val().trim() == ''){
-            showValidate(name);
-            check=false;
-        }
-
-
-        if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-            showValidate(email);
-            check=false;
-        }
-
-        if($(message).val().trim() == ''){
-            showValidate(message);
-            check=false;
-        }
-
-        return check;
-		
-    });
-
-
-    $('.validate-form .input2').each(function(){
-        $(this).focus(function(){
-           hideValidate(this);
-       });
-    });
-
-    function showValidate(input) {
-        var thisAlert = $(input).parent();
-
-        $(thisAlert).addClass('alert-validate');
-    }
-
-    function hideValidate(input) {
-        var thisAlert = $(input).parent();
-
-        $(thisAlert).removeClass('alert-validate');
-    }
-    
     // AJAX
     $('.form').submit(function(){
+        $('.loading').html("<img src='../../img/loading.gif' width='30px' style='position: absolute; bottom: 10px; margin-left: 15px;'>");
         $.ajax({
             url: 'validar.php',
             type: 'POST',
