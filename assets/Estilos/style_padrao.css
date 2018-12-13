@@ -11,10 +11,10 @@ body {overflow-x: hidden;}
 /* IMPORTAÇÃO FONTE PRÓPRIA */
 @font-face
 {
-	font-family: 'mitoafro'; 
+	font-family: 'Mitoafro'; 
 	src:url(fonts/mitoafro-regular-webfont.woff);
 	src:url(fonts/mitoafro-regular-webfont.woff2);
-	src:url(fonts/mitoafro-regular-webfont.ttf);
+	src:url(fonts/mitoafro-regular.ttf);
 }
 
 /* Reset BODY */
@@ -39,8 +39,8 @@ body::-webkit-scrollbar-track-{border-radius: 5px;} /*  */
 
 
 /* FONTES TÍT e TXT */
-.Titulo{font-family: Mitoafro, sans-serif; text-transform: uppercase; font-size: 5.5rem;}
-.Subtitulo{font-family: Mitoafro, sans-serif; text-transform: uppercase; font-size: 3.5rem;}
+.Titulo{font-family: 'Mitoafro', sans-serif; text-transform: uppercase; font-size: 5.5rem;}
+.Subtitulo{font-family: 'Mitoafro', sans-serif; text-transform: uppercase; font-size: 3.5rem;}
 .texto{font-family: "Century Gothic"; font-size: 18px; line-height: 40px;}
 /* .frase-bold{display: flex; padding-left: 6vw;} */
 p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 70px;}

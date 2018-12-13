@@ -10,10 +10,10 @@ html, body{ height: 100%;}
 /* IMPORTAÇÃO FONTE PRÓPRIA */
 @font-face
 {
-	font-family: 'MitoAfro'; 
+	font-family: 'Mitoafro'; 
 	src:url(fonts/mitoafro-regular-webfont.woff);
 	src:url(fonts/mitoafro-regular-webfont.woff2);
-	src:url(fonts/mitoafro-regular-webfont.ttf);
+	src:url(fonts/mitoafro-regular.ttf);
 }
 
 /* PALETA CORES */
@@ -32,21 +32,21 @@ body::-webkit-scrollbar-track-{border-radius: 5px;} /*  */
 
 
 /* FONTES TÍT e TXT */
-.Titulo{font-family: 'mitoafro', sans-serif; text-transform: uppercase;}
+.Titulo{font-family: 'Mitoafro', sans-serif; text-transform: uppercase;}
 .texto{font-family: "Century Gothic"; font-size: 18px; line-height: 40px;}
-p.p_dest:first-letter{font-family: 'mitoafro'; font-size: 70px;}
+p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 70px;}
 
 /* FONTES - CELULAR */
 @media only screen and (max-width: 576px) 
 { 
 	.Titulo{font-size: 3.5em;} .texto p{font-size: 14px;}
-	p.p_dest:first-letter{font-family: 'mitoafro'; font-size: 40px;}
+	p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 40px;}
 }
 /* FONTES - TABLET */
 @media only screen and (min-width:557px) and (max-width:992px) 
 { 
 	.Titulo{font-size: 4.5em;} .texto p{font-size: 16px;}
-	p.p_dest:first-letter{font-family: 'mitoafro'; font-size: 60px;}
+	p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 60px;}
 }
 
 
