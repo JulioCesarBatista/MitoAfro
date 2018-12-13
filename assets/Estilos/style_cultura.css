@@ -51,13 +51,29 @@ header nav ul li a:after{
 
 /* IMGS e LEGENDAS */
 #Contexto figure img.img-timeline{padding-right: 25px; width: 450px;}
-#DiasporaAfri figure sup a, #Contexto figure sup a{color: #6c07a8; font-weight: bold;}
-#DiasporaAfri figure sup a:hover ,#Contexto figure sup a:hover{color: #6c07a8;}
+#Contexto figure img.img-timeline-zumbi, 
+#Contexto figure img.img-timeline-boni, 
+#Contexto figure img.img-timeline-antonieta{height: 350px; width: auto;}
+#Contexto figure img.img-timeline-usp{width: 350px;}
+#DiasporaAfri figure sup a{color: #6c07a8; font-weight: bold;}
+#DiasporaAfri figure sup a:hover{color: #6c07a8;}
+#Contexto figure sup a{color: #FFF; font-weight: bold;}
+#Contexto figure sup a:hover{color: #FFF;}
 
 /* MARGEM TIMELINE - CELULAR e TABLET */
 @media only screen and (max-width: 767px) 
 {
   #Contexto figure img.img-timeline{padding-right: 0;}
+}
+
+/* FATOS SEM IMGS */
+.fato-sem-img{border: 2px solid #FFF;}
+.fato-sem-img div.media-body{margin-top: 1rem; margin-bottom: 0rem; padding: 0 20px;}
+
+/* FATOS SEM IMGS - CELULAR e TABLET */
+@media only screen and (max-width: 767px) 
+{
+  .fato-sem-img div.media-body{margin-top: 0.5rem; margin-bottom: -0.5rem; padding: 0 10px;}
 }
 
 /* -------------------------------- 
