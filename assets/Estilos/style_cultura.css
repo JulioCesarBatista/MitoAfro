@@ -50,7 +50,7 @@ header nav ul li a:after{
  /* LINHA DO TEMPO */
 
 /* IMGS e LEGENDAS */
-#Contexto figure img.img-timeline{padding-right: 25px; width: 450px;}
+#Contexto figure img.img-timeline{padding-right: 25px; width: 450px; border-radius: 20px;}
 #Contexto figure img.img-timeline-zumbi, 
 #Contexto figure img.img-timeline-boni, 
 #Contexto figure img.img-timeline-antonieta{height: 350px; width: auto;}
@@ -599,3 +599,6 @@ Main Components
 	font-size: 14px;
 	}
 }
+
+
+
